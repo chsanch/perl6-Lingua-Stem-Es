@@ -1,5 +1,33 @@
+[![Build Status](https://travis-ci.org/chsanch/perl6-Lingua-Stem-Es.svg?branch=master)](https://travis-ci.org/chsanch/perl6-Lingua-Stem-Es)
+
 # NAME
 Lingua::Stem::Es - Porter's steming algorithm for Spanish
+
+# SYNOPSIS
+
+```perl6
+    use Lingua::Stem::Es
+
+    my $stem = stem( $word );
+
+```
+
+# DESCRIPTION
+
+This module uses Porter's Stemming Algorithm to return a stemmed word.
+The algorithm is implemented as described in: [http://snowball.tartarus.org/algorithms/spanish/stemmer.html](http://snowball.tartarus.org/algorithms/spanish/stemmer.html) 
+
+# REPOSITORY
+
+Fork this module on GitHub:
+
+[https://github.com/chsanch/perl6-Lingua-Stem-Es](https://github.com/chsanch/perl6-Lingua-Stem-Es)
+
+# BUGS
+
+To report bugs or request features, please use:
+
+[https://github.com/chsanch/perl6-Lingua-Stem-Es/issues](https://github.com/chsanch/perl6-Lingua-Stem-Es/issues)
 
 # AUTHOR
 
